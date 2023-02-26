@@ -5,7 +5,7 @@ module.exports.getAllCoures = async function(){
 
 module.exports.createFirstCourse = async function(){
     const courses = await courseModel.find({});
-    if(courses && courses.length>=1){a
+    if(courses && courses.length>=1){
         return;
     }
     const firstCourse = {
